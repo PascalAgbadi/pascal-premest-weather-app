@@ -44,7 +44,7 @@ const baseUrl= "https://pascal-premest-weahter-app-api.herokuapp.com"
 				//Control Response
 				console.log(response)
 				if(response.data.success===false){
-					swal.fire("Invalid Request", "your location <b>"+theTownLocation+"</b> is invalid")
+					swal.fire("Invalid Query", "your location <b>"+theTownLocation+"</b> is invalid")
 					this.setState({
 					value:"Accra",             
 					}) 
@@ -79,8 +79,8 @@ render(){
 		<div className="hero form-bg"  >
                <div className="container">
                   <form  onSubmit={this.handleSubmit} name="SearchForm"   className="find-location"  >
-                    <input  type="text" name="town" placeholder="Find your location..." required/>
-		        	<input type="submit" value="Find Location"/>
+                    <input  type="text" name="town" placeholder="Search your location..." required/>
+		        	<input type="submit" value="Search Location"/>
                   </form>
                </div>
            </div>       						

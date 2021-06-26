@@ -7,7 +7,7 @@ function Footer() {
 					<div className="row">
 						<div className="col-md-8">
 							<form action="#" className="subscribe-form">
-								<input type="text" placeholder="Enter your email to subscribe..."/>
+								<input type="text" placeholder="Enter your email to get updates..."/>
 								<input type="submit" value="Subscribe"/>
 							</form>
 						</div>
@@ -15,7 +15,7 @@ function Footer() {
 					</div>
 
 					<center><p className="colophon">Copyright 2020 PreMEST - Weather App Project.</p>
-					<p className="colophon">Designed by Arnold Kofi  <em>(Nitro)</em>. All rights reserved</p></center>
+					<p className="colophon">Designed by Pascal Agbadi. All rights reserved</p></center>
 				</div>
 			</footer> 
   );

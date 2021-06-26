@@ -2,7 +2,6 @@ import React from 'react';
 
 function Recent(props) {
 	const displayWeather=props.recentList;
-	//console.log (displayWeather)
 		return (
 	         
 			<main className="main-content">
