@@ -42,7 +42,7 @@ textarea {
 
 body {
   margin: 0;
-  background-color: #37474F !important;
+  background-color: #558B2F !important;
  }
 
 a {
@@ -1206,7 +1206,7 @@ position: absolute;
     .mobile-navigation {
       display: none !important; } }
   .mobile-navigation .menu {
-    background: #262936;
+    background: #558B2F;
     list-style: none;
     text-align: center;
     border-radius: 10px;
@@ -1234,7 +1234,7 @@ position: absolute;
     border: solid 1px;
     width: 100%;
     padding: 20px 50px 20px 20px;
-    background: #1e202b;
+    background: #558B2F;
     color: white; }
   .find-location input[type="submit"] {
     position: absolute;
@@ -1245,7 +1245,7 @@ position: absolute;
 
 .forecast-container {
   width: 100%;
-  background: #323544;
+  background: #558B2F;
   display: table;
   table-layout: fixed;
   width: 100%;
@@ -1257,7 +1257,7 @@ position: absolute;
     display: table-cell;
     vertical-align: top; }
     .forecast-container .forecast:nth-child(even) {
-      background-color: #262936; }
+      background-color: #558B2F; }
     @media screen and (max-width: 990px) {
       .forecast-container .forecast {
         display: block;
@@ -1334,7 +1334,7 @@ position: absolute;
   margin-bottom: 30px; }
 
 .filter-control {
-  border: 2px solid #262936;
+  border: 2px solid #558B2F;
   padding: 5px 5px 5px 20px;
   border-radius: 30px;
   display: inline-block;
@@ -1346,7 +1346,7 @@ position: absolute;
     vertical-align: middle; }
 
 .select.control {
-  background: #262936;
+  background: #558B2F;
   border-radius: 40px;
   overflow: hidden;
   display: inline-block;
@@ -1469,7 +1469,7 @@ position: absolute;
       height: auto; }
 
 .breadcrumb {
-  background: #262936;
+  background: #558B2F;
   border-radius: 40px;
   padding: 20px 30px;
   font-size: 13px;
@@ -1535,7 +1535,7 @@ position: absolute;
   min-height: 190px;
   border-radius: 10px;
   overflow: hidden;
-  background: #262936;
+  background: #558B2F;
   margin-bottom: 30px; }
   .photo .photo-preview {
     position: absolute;
@@ -1584,7 +1584,7 @@ position: absolute;
     left: 0; }
 
 .contact-details {
-  background: #262936;
+  background: #558B2F;
   border-radius: 10px;
   overflow: hidden; }
   .contact-details .map {
@@ -1625,7 +1625,7 @@ position: absolute;
   text-align: right; }
 
 .sidebar .widget {
-  background: #262936;
+  background: #558B2F;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 30px; }
@@ -1661,7 +1661,7 @@ position: absolute;
  * Footer Styles
  */
 .site-footer {
-  background: #262936;
+  background: #558B2F;
   padding: 50px 0; }
   .site-footer .subscribe-form {
     position: relative;

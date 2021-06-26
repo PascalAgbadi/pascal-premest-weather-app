@@ -42,7 +42,6 @@ const baseUrl= "https://pascal-premest-weahter-app-api.herokuapp.com"
 			axios.get(baseUrl+"/fetch_weather_data/"+theTownLocation)  
 			.then(response => {
 				//Control Response
-				console.log(response)
 				if(response.data.success===false){
 					swal.fire("Invalid Query", "your location <b>"+theTownLocation+"</b> is invalid")
 					this.setState({
